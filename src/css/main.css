@@ -1,0 +1,75 @@
+:root {
+  --primary: rgba(236, 195, 106, 0.85);
+  --secondary: rgba(83, 149, 187, 0.85);
+  --tertiary: rgb(236, 184, 115, 0.3);
+  --quaternary: rgba(83, 149, 187, 0.3);
+  --dark: #2e2e2e;
+  --light: #f1f1f1;
+}
+
+::selection {
+  background: var(--primary);
+}
+
+body,
+html {
+  background-color: #02142b;
+  background: url('../img/bg-optimoitu.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 18px;
+  font-family: 'Titillium Web', sans-serif;
+  line-height: 1.8;
+  color: var(--light);
+}
+
+h1 {
+  text-align: center;
+  padding: 0 25px;
+  margin: 20px 0 40px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  border: 1px var(--light) solid;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.page {
+  padding: 4vh 8vw;
+  min-height: 100vh;
+  width: 100vh;
+}
+
+.page:nth-child(even) {
+  background-color: var(--tertiary);
+}
+
+.page:nth-child(even) h1 {
+  background-color: var(--quaternary);
+}
+
+.page:nth-child(odd) {
+  background-color: var(--quaternary);
+}
+
+.page:nth-child(odd) h1 {
+  background-color: var(--tertiary);
+}
+
+@media screen and (max-width: 900px) {
+  body,
+  html {
+  }
+  .page {
+    /*none*/
+  }
+}

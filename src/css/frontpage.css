@@ -1,0 +1,66 @@
+.frontPage {
+  background-color: transparent !important;
+}
+
+h1.name {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  letter-spacing: 10px;
+  margin: 12px;
+  padding: 0 25px;
+  text-align: center;
+  color: var(--light);
+  transition-duration: 500ms;
+  font-size: 3.5rem;
+  border: 2px var(--light) solid;
+}
+
+h1.name:hover {
+  font-size: 3.6rem;
+  color: var(--primary);
+  transition-duration: 500ms;
+}
+
+h2.title {
+  letter-spacing: 5px;
+  margin: 0;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+.some-icons {
+  margin-top: 18px;
+  text-align: center;
+}
+
+.some-icons i {
+  color: var(--light);
+  font-size: 1.6rem;
+  padding: 0 10px;
+  transition-duration: 500ms;
+}
+
+.some-icons i:hover {
+  color: var(--primary);
+  transition-duration: 500ms;
+}
+
+.scroll {
+  position: absolute;
+  align-content: center;
+  bottom: 20px;
+  font-size: 0.8rem;
+}
+
+.scroll img {
+  width: 66px;
+}
+
+@media screen and (max-width: 630px) {
+  h1.name {
+    font-size: 2.2rem;
+    margin: 0;
+  }
+  h1.name:hover {
+    font-size: 2.2rem;
+  }
+}

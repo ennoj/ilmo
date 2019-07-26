@@ -1,0 +1,14 @@
+.skillsPage {
+  min-height: 60vh;
+}
+
+.big3 img {
+  width: 350px !important;
+  height: auto !important;
+  margin-bottom: 40px !important;
+}
+
+.skillsPage img {
+  height: 70px;
+  margin-bottom: 20px;
+}
