@@ -21,7 +21,7 @@ const Frontpage = () => {
       </Grid>
 
       <Grid item>
-        <h2 className='title'>- Intohimona Ohjelmointi -</h2>
+        <h2 className='title'>- Code & Design -</h2>
       </Grid>
       <Grid item>
         <div className='some-icons'>

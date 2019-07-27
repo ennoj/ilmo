@@ -1,10 +1,10 @@
 :root {
-  --primary: rgba(236, 195, 106, 0.85);
-  --secondary: rgba(83, 149, 187, 0.85);
-  --tertiary: rgb(236, 184, 115, 0.3);
-  --quaternary: rgba(83, 149, 187, 0.3);
-  --dark: #2e2e2e;
-  --light: #f1f1f1;
+  --primary: rgba(129, 0, 0, 0.95);
+  --secondary: rgba(83, 149, 187, 0.95);
+  --tertiary: rgba(221, 221, 221, 0.95);
+  --quaternary: rgba(44, 44, 44, 0.95);
+  --dark: #3a3a3a;
+  --light: #e6e6e6;
 }
 
 ::selection {
@@ -13,20 +13,31 @@
 
 body,
 html {
-  background-color: #02142b;
-  background: url('../img/bg-optimoitu.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  height: 100vh;
+  padding: 0 5vw;
+  background-color: #040404;
+  background: url('../img/pattern.png') #040404;
   font-size: 18px;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Darker Grotesque', sans-serif;
   line-height: 1.8;
   color: var(--light);
 }
 
 h1 {
-  text-align: center;
+  color: var(--dark);
+  background: #ffe259; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffa751,
+    #ffe259
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffa751,
+    #ffe259
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: 'Titillium Web', sans-serif;
   padding: 0 25px;
   margin: 20px 0 40px;
   text-transform: uppercase;
@@ -38,36 +49,43 @@ h1 {
 }
 
 h2 {
-  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
 
 .page {
-  padding: 4vh 8vw;
+  margin: 2vh 0;
+  padding: 4vh 4vw;
   min-height: 100vh;
-  width: 100vh;
+  background: #485563;
+  background: -webkit-linear-gradient(to right, #29323c, #485563);
+  background: linear-gradient(to right, #29323c, #485563);
+
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
+/*
 .page:nth-child(even) {
-  background-color: var(--tertiary);
-}
-
-.page:nth-child(even) h1 {
-  background-color: var(--quaternary);
+  color: var(--dark);
+  background: #e0eafc;
+  background: -webkit-linear-gradient(to right, #cfdef3, #e0eafc);
+  background: linear-gradient(to right, #cfdef3, #e0eafc);
 }
 
 .page:nth-child(odd) {
-  background-color: var(--quaternary);
+  background: #a73737;
+  background: -webkit-linear-gradient(to right, #7a2828, #a73737);
+  background: linear-gradient(to right, #7a2828, #a73737);
 }
-
-.page:nth-child(odd) h1 {
-  background-color: var(--tertiary);
-}
+*/
 
 @media screen and (max-width: 900px) {
   body,
   html {
+    padding: 0;
   }
   .page {
     /*none*/

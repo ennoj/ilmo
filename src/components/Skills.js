@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Typography } from '@material-ui/core';
+import { Grid, Typography, Paper } from '@material-ui/core';
 
 import htmlcssjs from '../img/htmlcssjs.png';
 import bootstrap from '../img/bootstrap.png';
@@ -30,15 +30,31 @@ const Skills = () => {
       <h1>Osaaminen</h1>
       <Grid
         container
-        spacing={7}
+        spacing={5}
         direction='row'
         justify='center'
         alignItems='center'
       >
+        <Grid item lg={7}>
+          <Paper className='paper'>
+            <Typography variant='body1'>
+              <h2>Vankka perusteiden osaaminen - Prioriteetti #1</h2>
+              Kielten, frameworkien ja libraryjen osalta olen agnostikko. Olen
+              aina kiinnostunut oppimaan uutta ja kokeilemaan eri menetelmiä
+              parhaan tuloksen aikaansaamiseksi, mutta vankka perusteiden
+              osaaminen on avain ammattitaitoon. Oppia ikä kaikki, kuten sanonta
+              menee. JavaScript, erityisesti sen modernit käyttötavat, joita mm.
+              Node ja React tarjoavat ovat mieleeni. Näiden lisäksi PHP ja Java
+              kiinnostavat minua. Periaatteeni, alusta alkaen on ollut: puhdasta
+              koodia, joka täyttää yleiset standardit ja josta voin olla ylpeä.
+            </Typography>
+          </Paper>
+        </Grid>
+
         <Grid item lg={5}>
           <Grid
             container
-            spacing={0}
+            spacing={1}
             direction='row'
             justify='center'
             alignItems='center'
@@ -80,18 +96,6 @@ const Skills = () => {
               <img src={git} alt='Git' />
             </Grid>
           </Grid>
-        </Grid>
-
-        <Grid item lg={7}>
-          <Typography variant='body1'>
-            Kielten, frameworkien ja libraryjen osalta olen agnostikko. Olen
-            aina kiinnostunut oppimaan uutta ja kokeilemaan eri menetelmiä
-            parhaan tuloksen aikaansaamiseksi. Oppia ikä kaikki, kuten sanonta
-            menee. JavaScript, erityisesti sen modernit käyttötavat, joita mm.
-            Node ja React tarjoavat ovat mieleeni. Näiden lisäksi PHP ja Java
-            kiinnostavat minua. Periaatteeni, alusta alkaen on ollut: puhdasta
-            koodia, joka täyttää yleiset standardit ja josta voin olla ylpeä.
-          </Typography>
         </Grid>
       </Grid>
     </Grid>

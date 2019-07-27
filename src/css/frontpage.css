@@ -1,9 +1,13 @@
 .frontPage {
-  background-color: transparent !important;
+  background: transparent !important;
+
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
 }
 
 h1.name {
-  background-color: rgba(255, 255, 255, 0.05) !important;
+  background: rgba(255, 255, 255, 0.05) !important;
   letter-spacing: 10px;
   margin: 12px;
   padding: 0 25px;
@@ -16,7 +20,6 @@ h1.name {
 
 h1.name:hover {
   font-size: 3.6rem;
-  color: var(--primary);
   transition-duration: 500ms;
 }
 
@@ -41,6 +44,8 @@ h2.title {
 
 .some-icons i:hover {
   color: var(--primary);
+  position: relative;
+  top: -2px;
   transition-duration: 500ms;
 }
 
