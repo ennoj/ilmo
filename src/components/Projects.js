@@ -28,11 +28,11 @@ const Projects = () => {
         alignItems='flex-start'
       >
         <Grid item align='center' md>
-          <Paper className='paper'>
+          <Paper className='paper projectCard'>
             <h2>Ilmo</h2>
             <img className='thumbnail' src={Ilmo} alt='ilmo pikkukuva' />
 
-            <a href='#!' target='_blank'>
+            <a href='https://liukkonen.dev/projects/ilmo' target='_blank'>
               <Button variant='contained' color='primary'>
                 <DemoIcon /> Demo
               </Button>
@@ -50,8 +50,8 @@ const Projects = () => {
               löytää koodin kautta ratkaisun.
               <br />
               <b>
-                Ilmo on työpaikallani päivittäisessä käytössä, ja se säästää
-                lukuisia työtunteja viikottain
+                Ilmo on päivittäisessä käytössä, ja se säästää lukuisia
+                työtunteja viikottain
               </b>
               .
             </Typography>
@@ -59,7 +59,7 @@ const Projects = () => {
         </Grid>
 
         <Grid item align='center' md>
-          <Paper className='paper'>
+          <Paper className='paper projectCard'>
             <h2>Kotisivuni</h2>
             <img
               className='thumbnail'
@@ -67,7 +67,7 @@ const Projects = () => {
               alt='kotisivuni pikkukuva'
             />
 
-            <a href='#!' target='_blank'>
+            <a href='https://liukkonen.dev/projects/kotisivuni' target='_blank'>
               <Button variant='contained' color='primary'>
                 <DemoIcon /> Demo
               </Button>
@@ -82,8 +82,9 @@ const Projects = () => {
             <Typography className='description' variant='body2'>
               Kotisivuni on käyttäjälle räätälöity "internetin etusivu".
               Käyttäjälle avautuu näyttävä koko ruudun kokoinen kello.
-              Vierittämällä sivua alas, käyttäjä voi avata itselleen tallentamat
-              linkit tai palvelun listaamat Suomen suosituimmat linkit.
+              Vierittämällä sivua alas, käyttäjä voi avata tallentamansa
+              henkilökohtaiset linkit tai palvelun listaamat Suomen suosituimmat
+              linkit.
               <br />
               <b>Tulossa: kirjautuminen + MongoDB-tietokanta</b>.
             </Typography>
@@ -91,11 +92,11 @@ const Projects = () => {
         </Grid>
 
         <Grid item align='center' md>
-          <Paper className='paper'>
+          <Paper className='paper projectCard'>
             <h2>Näppis (Beta)</h2>
             <img className='thumbnail' src={Nappis} alt='näppis pikkukuva' />
 
-            <a href='#!' target='_blank'>
+            <a href='https://liukkonen.dev/projects/nappis' target='_blank'>
               <Button variant='contained' color='primary'>
                 <DemoIcon /> Demo
               </Button>
@@ -108,10 +109,10 @@ const Projects = () => {
             </a>
 
             <Typography className='description' variant='body2'>
-              Näppis on tarkoitettu lapsille, aakkosten opetteluun. Paina
+              Näppis on tarkoitettu lapsille aakkosten opetteluun. Paina
               näppäimistöllä haluamaasi kirjainta ja näppis lukee sen ääneen.
-              Ulkoasu on hyvin pelkistetty ja sen parantaminen on seuraava askel
-              projektissa.
+              Ulkoasu on vielä hyvin pelkistetty ja sen parantaminen on seuraava
+              askel projektissa.
               <br />
               <b>* Vaatii näppäimistön *</b>
             </Typography>

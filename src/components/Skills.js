@@ -54,6 +54,7 @@ const Skills = () => {
         <Grid item lg={5}>
           <Grid
             container
+            className='stackIcons'
             spacing={1}
             direction='row'
             justify='center'

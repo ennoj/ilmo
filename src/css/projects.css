@@ -1,3 +1,7 @@
+.projectCard {
+  min-height: 550px;
+}
+
 .thumbnail {
   margin: 0 auto 25px;
   display: block;
@@ -8,10 +12,15 @@
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-.description {
-  margin-top: 15px !important;
+.MuiButton-containedPrimary {
+  color: var(--dark) !important;
+  background-color: var(--primary) !important;
 }
 
-.projectsPage {
-  min-height: 90vh;
+a {
+  text-decoration: none;
+}
+
+.description {
+  margin-top: 15px !important;
 }

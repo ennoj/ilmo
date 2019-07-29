@@ -30,22 +30,26 @@ const Introduction = () => {
         <Grid item align='left' lg={8}>
           <Paper className='paper'>
             <Typography className='description' variant='body1'>
-              Ensi vuonna minusta tulee ohjelmoija! Päätin näin kesällä 2018,
-              työstäessäni kaverini yrityksen Wordpress-sivun koodia. Siitä
-              hetkestä lähtien olen opiskellut noin 1 000 tuntia (15 - 30h
-              viikossa) itsenäisesti, useilla verkkokursseilla. HTML, CSS, sekä
-              JavaScript (ml. jotkin libraryjä ja frameworkejä) ovat tulleet
-              minulle todella tutuiksi. Ohjelmointimaailman ihastukseni on
-              MERN-stack. Kotisivuni tein "puhdistettulla" create-react-app:n
-              boiler platella. Projekteistani "Näppis" ja "Kotisivuni" on
-              toteutettu vanilla JavaScriptillä. Näiden projektien lisäksi olen
-              opiskellut lukuisten APIen, Noden (+Express), MongoDB:n ym
-              parissa.
-              <br />
-              <br />
-              Tavoitteenani on aloittaa alalla työskentely syksyn aikana.
-              Tulevaisuuden tähtäimeni on tulla fullstack-kehittäjäksi.
-              JavaScriptin lisäksi minua kiinnostaa mm. PHP ja Java.
+              Tietotekniikka on ollut minulle läheinen viisivuotiaasta saakka,
+              kun isäni osti Amiga Commodore 500:n. Ohjelmointi on kiinnostanut
+              minua teini-ikäisestä asti. <br />
+              Vietin iltaa viime kesänä kaverini kanssa, joka puhui työstään
+              ohjelmoijana. Sinä iltana tein päätöksen, että minusta tulee
+              ohjelmoija! Siitä hetkestä lähtien olen opiskellut noin 1 000
+              tuntia (15 - 30h viikossa) itsenäisesti, useilla verkkokursseilla
+              ja rakennellen omia projekteja. HTML, CSS, sekä JavaScript (ml.
+              libraryjä ja frameworkejä) ovat tulleet minulle todella tutuiksi.
+              Ohjelmointimaailman ihastukseni on MERN-stack. Kotisivuni on tehty
+              tyhjennettyyn create-react-app:n boiler plateen. Projekteistani
+              "Näppis" ja "Kotisivuni" on toteutettu vanilla JavaScriptillä.
+              Näiden projektien lisäksi olen opiskellut lukuisten APIen, Noden
+              (+Express), MongoDB:n ym parissa. Osaamiseni kanssa olen siinä
+              vaiheessa, että perusteet on hyvässä hallussa, olen kykenevä
+              toteuttamaan haluamiani projekteja ja uusien asioiden oppiminen
+              käy ripeästi. Olen halunnut varmistaa, että osaamiseni on varmasti
+              sillä tasolla, että olen valmis siirtymään alalle. Nyt olen
+              itsevarma ja valmis. Tavoitteenani on siirtyä alalle tämän syksyn
+              aikana.
             </Typography>
           </Paper>
         </Grid>

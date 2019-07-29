@@ -3,5 +3,13 @@
 }
 
 .introductionPage {
-  min-height: 70vh;
+  padding-right: 16vw;
+  padding-left: 16vw;
+}
+
+@media screen and (max-width: 630px) {
+  .introductionPage {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
 }

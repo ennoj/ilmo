@@ -1,5 +1,5 @@
 :root {
-  --primary: rgba(129, 0, 0, 0.95);
+  --primary: #ffe259;
   --secondary: rgba(83, 149, 187, 0.95);
   --tertiary: rgba(221, 221, 221, 0.95);
   --quaternary: rgba(44, 44, 44, 0.95);
@@ -14,9 +14,7 @@
 body,
 html {
   height: 100vh;
-  padding: 0 5vw;
-  background-color: #040404;
-  background: url('../img/pattern.png') #040404;
+  background: url('../img/pattern.png');
   font-size: 18px;
   font-family: 'Darker Grotesque', sans-serif;
   line-height: 1.8;
@@ -24,22 +22,15 @@ html {
 }
 
 h1 {
-  color: var(--dark);
-  background: #ffe259; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #ffa751,
-    #ffe259
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #ffa751,
-    #ffe259
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: var(--light);
+  background: #232526;
+  background: -webkit-linear-gradient(to right, #414345, #232526);
+  background: linear-gradient(to right, #414345, #232526);
 
   font-family: 'Titillium Web', sans-serif;
+  font-size: 2rem;
   padding: 0 25px;
-  margin: 20px 0 40px;
+  margin: 20px 0 80px;
   text-transform: uppercase;
   letter-spacing: 5px;
   border: 1px var(--light) solid;
@@ -55,9 +46,8 @@ h2 {
 }
 
 .page {
-  margin: 2vh 0;
-  padding: 4vh 4vw;
-  min-height: 100vh;
+  margin: 3vh 0;
+  padding: 6vh 12vw 8vh;
   background: #485563;
   background: -webkit-linear-gradient(to right, #29323c, #485563);
   background: linear-gradient(to right, #29323c, #485563);
@@ -67,27 +57,20 @@ h2 {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-/*
-.page:nth-child(even) {
-  color: var(--dark);
-  background: #e0eafc;
-  background: -webkit-linear-gradient(to right, #cfdef3, #e0eafc);
-  background: linear-gradient(to right, #cfdef3, #e0eafc);
+.paper {
+  background: #ece9e6 !important;
+  background: -webkit-linear-gradient(to right, #ffffff, #ece9e6) !important;
+  background: linear-gradient(to right, #ffffff, #ece9e6) !important;
+  padding: 1vh 1.5vw 2vh;
 }
-
-.page:nth-child(odd) {
-  background: #a73737;
-  background: -webkit-linear-gradient(to right, #7a2828, #a73737);
-  background: linear-gradient(to right, #7a2828, #a73737);
-}
-*/
 
 @media screen and (max-width: 900px) {
-  body,
-  html {
-    padding: 0;
-  }
   .page {
-    /*none*/
+    padding: 6vh 2vw;
+  }
+
+  .paper {
+    margin: 0;
+    padding: 2vh 2vw;
   }
 }
