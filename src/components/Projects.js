@@ -32,13 +32,21 @@ const Projects = () => {
             <h2>Ilmo</h2>
             <img className='thumbnail' src={Ilmo} alt='ilmo pikkukuva' />
 
-            <a href='https://liukkonen.dev/projects/ilmo' target='_blank'>
+            <a
+              href='https://liukkonen.dev/projects/ilmo'
+              target='_blank'
+              rel='noopener'
+            >
               <Button variant='contained' color='primary'>
                 <DemoIcon /> Demo
               </Button>
             </a>
             {'  '}
-            <a href='#!' target='_blank'>
+            <a
+              href='https://github.com/ennoj?tab=projects'
+              target='_blank'
+              rel='noopener'
+            >
               <Button variant='contained' color='primary'>
                 <CodeIcon /> Koodi
               </Button>
@@ -67,13 +75,21 @@ const Projects = () => {
               alt='kotisivuni pikkukuva'
             />
 
-            <a href='https://liukkonen.dev/projects/kotisivuni' target='_blank'>
+            <a
+              href='https://liukkonen.dev/projects/kotisivuni'
+              target='_blank'
+              rel='noopener'
+            >
               <Button variant='contained' color='primary'>
                 <DemoIcon /> Demo
               </Button>
             </a>
             {'  '}
-            <a href='#!' target='_blank'>
+            <a
+              href='https://github.com/ennoj?tab=projects'
+              target='_blank'
+              rel='noopener'
+            >
               <Button variant='contained' color='primary'>
                 <CodeIcon /> Koodi
               </Button>
@@ -96,13 +112,21 @@ const Projects = () => {
             <h2>Näppis (Beta)</h2>
             <img className='thumbnail' src={Nappis} alt='näppis pikkukuva' />
 
-            <a href='https://liukkonen.dev/projects/nappis' target='_blank'>
+            <a
+              href='https://liukkonen.dev/projects/nappis'
+              target='_blank'
+              rel='noopener'
+            >
               <Button variant='contained' color='primary'>
                 <DemoIcon /> Demo
               </Button>
             </a>
             {'  '}
-            <a href='#!' target='_blank'>
+            <a
+              href='https://github.com/ennoj?tab=projects'
+              target='_blank'
+              rel='noopener'
+            >
               <Button variant='contained' color='primary'>
                 <CodeIcon /> Koodi
               </Button>

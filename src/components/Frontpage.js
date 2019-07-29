@@ -25,12 +25,17 @@ const Frontpage = () => {
       </Grid>
       <Grid item>
         <div className='some-icons'>
-          <a href='https://github.com/ennoj?tab=projects' target='_blank'>
+          <a
+            href='https://github.com/ennoj?tab=projects'
+            target='_blank'
+            rel='noopener'
+          >
             <i className='fab fa-github' />
           </a>
           <a
             href='https://www.linkedin.com/in/jonne-liukkonen/'
             target='_blank'
+            rel='noopener'
           >
             <i className='fab fa-linkedin' />
           </a>
